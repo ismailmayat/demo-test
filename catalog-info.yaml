@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "AO-test"
+  description: "test"
+  annotations:
+    github.com/project-slug: "ismailmayat/demo-test"
+    backstage.io/techdocs-ref: github:https://github.com/ismailmayat/demo-test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "AO"
